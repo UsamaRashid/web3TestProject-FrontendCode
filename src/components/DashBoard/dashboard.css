@@ -1,0 +1,156 @@
+/*
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+  .navbar_menu {
+    background-color: #1c5a7b;
+  }
+
+  .home_img {
+    /* object-fit: fill;
+    border: none; */
+    /* style=" height: 700px; width: 100%; object-fit: cover;" */
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .home_background {
+    height: 500px;
+  }
+  .amazing_deal {
+    /* style="
+          background-color: #ffffff;
+          margin: 0;
+          padding: 0.5em;
+        " */
+    /* background-color: #ffffff; */
+    /* margin: 0; */
+    /* padding: 0.5em; */
+    /* background-color: green; */
+    /* position: relative; */
+    font-size: 0.4em;
+  }
+
+  .hidethis {
+    display: none;
+  }
+  .happy_Customers5 {
+    /* style="width:200px;height:200px;" */
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 0.5em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .about_furnish {
+    background-position: 25% 0%;
+  }
+  .about_furnish2 {
+    position: absolute;
+    margin-top: 10rem;
+    display: block;
+    margin-left: 20%;
+    /* background-color: blue; */
+  }
+  .technical_statisic {
+  }
+  .home_best_of {
+    /* style="font-weight: bolder; font-size: 0.4in ;white-space: nowrap;
+                  display: inline-block;" */
+    font-weight: bolder;
+    font-size: 0.4cm;
+    /* white-space: ; */
+    /* display: inline; */
+    overflow: hidden;
+  }
+  .home_best1 {
+    font-size: 0.3cm;
+  }
+  .home_para {
+    /* style="  white-space: nowrap;
+    display: inline-block;" */
+    font-size: 0.3cm;
+    line-height: 0.4cm;
+    /* overflow: hidden; */
+    display: inline-block;
+    /* display: inline; */
+  }
+  .button-34 {
+    font-size: 0.3cm;
+
+    background: #ffffff;
+    border-radius: 999px;
+    box-shadow: #267aa4 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #267aa4;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto,
+      "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 8px;
+    font-weight: 350;
+    line-height: 12px;
+    opacity: 1;
+    padding: 4px 9px;
+  }
+  .thumbnail_new {
+    height: 50px;
+    width: 50px;
+  }
+  .text_small {
+    /* font-size: 0.3cm; */
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .about_furnish2 {
+    position: absolute;
+    margin-top: 10rem;
+    display: block;
+    margin-left: 10%;
+    /* background-color: blue; */
+  }
+  .thumbnail_new {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media only screen and (min-device-width: 992px) {
+  .thumbnail_new {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.background-image1 {
+  background-color: #000;
+  /* background-image: url("./Images/bg.jpg"); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}

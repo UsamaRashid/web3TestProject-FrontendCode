@@ -1,0 +1,29 @@
+.special-card {
+  /* create a custom class so you
+     do not run into specificity issues
+     against bootstraps styles
+     which tends to work better than using !important
+     (future you will thank you later)*/
+
+  /* background-color: rgba(245, 245, 245, 1); */
+  background-color: #262626;
+  /* background-color: #2f2929; */
+  border-radius: 1em;
+  color: white;
+  /* opacity: 0.15; */
+}
+
+.card_token {
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /* width: 250px; */
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  /* height: 300px; */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  text-align: center;
+  color: #262626;
+  color: white;
+  /* margin: 0.1rem; */
+}

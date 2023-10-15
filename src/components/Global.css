@@ -1,0 +1,29 @@
+.button {
+  border-radius: 2em;
+  background: #15cdfc;
+  padding: 1%;
+  color: #fff;
+  outline: none;
+  margin: 0.5em 1em 1em 1em;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  /* Second Nav */
+  /* margin-left: 24px; */
+}
+.button:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #15cdfc;
+}
+
+.blur-Backgrounds {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2em;
+}

@@ -1,0 +1,49 @@
+.Nav {
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  border-radius: 1rem;
+  border-radius: 1em;
+  margin: 0.8em 0.8em 0em 1em;
+  z-index: 3;
+  padding: 2em;
+  color: white;
+}
+
+.brand {
+  color: #15cdfc;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+.brand :hover {
+  color: white;
+}
+.brand :active {
+  color: #15cdfc;
+}
+
+.nav-links {
+  display: inline-block;
+  height: 20px;
+  background-color: white; /*will change background-color of element */
+  color: green; /*will change color of text within the element */
+}
+
+.nav-links:hover {
+  background-color: green; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+}
+
+.navbar-toggler {
+  line-height: 1;
+  /* background-color: red; */
+  background-color: #fff;
+  color: red;
+}
